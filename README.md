@@ -69,7 +69,7 @@ Run the following command in order to start the application in a development env
 ## :hammer: Deploy
 [Zeit](https://zeit.co/) provides a easy way to deploy NextJS applications. You may create a now.json file with the build configuration.
 
-```
+```````````````````
 {
     "build": {
         "env": {
@@ -81,7 +81,7 @@ Run the following command in order to start the application in a development env
         }
     }
 }
-```
+`````````````````````
 
 You're able to create secrets with the commands provided by the [Now CLI](https://zeit.co/download) in order to map environment variables, 
 
